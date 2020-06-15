@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset/reset.css">
+    <link rel="stylesheet" href="css-bootstrap/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <title>Document</title>
+</head>
+<body style="background-color: silver;">
+
+    <h2 class="title">test</h2>
+        <div class="form">
+            <input type="text" class="form-control mb-2 form-text" placeholder="username" name="user" >
+            <input type="password" class="form-control mb-2 form-password" placeholder="password" name="password">
+            <button class="btn btn-success form-control mb-2" onclick="login()">basla</button>
+            <button class="form-control btn btn-warning register" onclick="register()">register</button>
+            <div class="form-r">
+                <input type="text" class="form-control mb-2 reUser" placeholder="username" name="reUser" >
+                <input type="password" class="form-control mb-2 rePassword" placeholder="password" name="rePassword">
+                <button class="submit  form-control btn btn-success" onclick="submit()">submit</button>
+                <button class="cancel form-control btn btn-danger" onclick="cancel()">cancel</button>
+            </div>
+            
+
+        </div>
+    
+
+    <div class="container-fluid">
+        
+    </div>
+    <button onclick="check()" class="yoxla">check</button>
+    <div class="result">
+        <button class="tryAgain btn btn-primary">try again</button>
+    </div>
+
+    <div class="admin">
+        <h2 class="students">students</h2>
+        <button onclick="backToHome()" class="back btn btn-info">return home page</button>
+        
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
